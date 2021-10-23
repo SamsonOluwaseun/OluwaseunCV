@@ -1,11 +1,28 @@
 body {
-    margin: 0;
+    background-color: #EAF6F6;
+}
+
+hr {
+    border: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 10%;
 }
 
 h1 {
+    color: #66BFBF;
     margin-top: 0;
     margin-bottom: 0;
     padding: 20px;
+}
+
+h3 {
+    color: #66BFBF;
+}
+
+h3:hover {
+    color: black;
 }
 
 .top-container {
@@ -15,7 +32,6 @@ h1 {
     padding: 20px;
     border: solid 10px;
     margin: 10px;
-    
 }
 
 div {
